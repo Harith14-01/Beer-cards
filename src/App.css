@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.beer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.beer-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.beer-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
